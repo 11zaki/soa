@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<curriculum_vitae>
+    <informations_personnelles>
+        <nom>zakaria ouni</nom>
+        <ville>Ariana</ville>
+        <code_postal>2080</code_postal>
+        <telephone>54938760</telephone>
+        <email>ouni.zakaria8@gmail.com</email>
+    </informations_personnelles>
+    <education>
+        <formation>
+            <titre>Deuxième année ingénierie en développement web, mobile et multimédia</titre>
+            <ecole>Tek-up Université</ecole>
+            <annee>2023-2024</annee>
+        </formation>
+        <formation>
+            <titre>Premier année Mastère professionnel en Informatique parcours systèmes 
+              embarqués et IOT</titre>
+            <ecole>Institut supérieur d&apos;informatique et MultiMedia de Gabes</ecole>
+            <annee>2022-2023</annee>
+        </formation>
+        <formation>
+            <titre>Licence d&apos;ingénierie de système informatique parcours systèmes embarqués et IOT</titre>
+            <ecole>Institut supérieur d&apos;informatique et MultiMedia de Gabes</ecole>
+            <annee>2019-2022</annee>
+        </formation>
+    </education>
+    <experience_Pertinentes>
+        <projet>
+            <titre>parking intelligent:une soulution innovante pour la gestion de stationnement</titre>
+            <periode>2023</periode>
+            <environemment_Technique>
+              <carte>Raspberry pi</carte>
+              <langage>Micropython</langage>
+              <outil>visual studio</outil>
+            </environemment_Technique>
+        </projet>
+         <projet>
+            <titre>étude et conception d&apos;un robot de nettoyage de panneaux solaire</titre>
+            <periode>2022</periode>
+            <environemment_Technique>
+            <langage>Java</langage>
+              <outil>Android studio</outil>
+              <outil>Solidworks</outil>
+            </environemment_Technique>
+        </projet>
+        <projet>
+            <titre>Mise en place d'un systeme de controle d'une maison intelligent</titre>
+            <periode>2021</periode>
+            <environemment_Technique>
+            <langage>Micropython</langage>
+              <outil>thonny</outil>
+              <carte>nodmcu8266</carte>  
+            </environemment_Technique>
+        </projet>
+    <competences>
+        <competence>Programmation en Java , python ,C, </competence>
+        <competence>Programmation et implemantation de carte embarquer</competence>
+        
+    </competences>
+</curriculum_vitae>
