@@ -1,0 +1,98 @@
+mat-icon {
+  margin-right: 10px;
+  margin-left: 7px;
+}
+mat-toolbar {
+  background-color: #a6cef1;
+  width: 100%;
+
+}
+
+ul {
+  display: flex;
+  margin-left:800px;
+}
+
+li {
+  list-style: none;
+}
+
+mat-toolbar .profile_details {
+  display: flex;
+  flex-direction: row;
+  margin-top: 8px;
+}
+
+.logo {
+  display: flex;
+  align-items: center; 
+}
+
+.logo img {
+  max-height: 60px; 
+}
+
+.profile_details mat-icon {
+  font-size: 35px;
+  margin-right: 15px;
+  color: white;
+}
+
+.notif mat-icon {
+  font-size: 25px;
+  color: white;
+  margin-top: 11px;
+}
+
+.menu-icon mat-icon {
+  font-size: 30px;
+  color: white;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; 
+}
+ 
+
+.content-container {
+  flex: 1;
+  display: flex;
+}
+
+.mat-sidenav-container {
+  flex: 1;
+}
+
+mat-sidenav {
+  width: 250px;
+}
+
+mat-sidenav-content {
+  padding: 16px; 
+  flex: 1;
+  overflow: auto;
+  
+}
+.title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size:x-large;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 3%;
+ }
+ table{
+  width: 100%;
+  text-align: center;
+  border: black solid 1px;
+ }
+ td,th{
+  border: black solid 1px;
+
+ }
+ mat-card{
+  height: 95%;
+  
+ }

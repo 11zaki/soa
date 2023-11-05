@@ -1,0 +1,97 @@
+<div class="app-container">
+    <mat-toolbar>
+      <!-- Your existing toolbar content -->
+      <span>
+        <mat-toolbar-row class="d-flex">
+          <!-- Logo -->
+          <div class="logo">
+            <img src="assets/images/logo-header.png" alt="Logo" />
+          </div>
+          <div class="row">
+            <ul class="icon-navbar">
+              <li>
+                <button mat-button [matMenuTriggerFor]="menu">
+                  <div class="notif">
+                    <mat-icon>notifications_active</mat-icon>
+                  </div>
+                </button>
+                <mat-menu #menu="matMenu">
+                  <!--listes des notifications-->
+                  <mat-list>
+                    <mat-list-item>vous avez une notification</mat-list-item>
+                  </mat-list>
+                </mat-menu>
+              </li>
+              <mat-divider [vertical]="true"></mat-divider>
+              <li>
+                <button mat-button [matMenuTriggerFor]="menu1">
+                  <div class="profile_details">
+                    <mat-icon>perm_identity</mat-icon>
+                    <div class="class_type">
+                      <span>nom d'utilisateur</span>
+                    </div>
+                  </div>
+                </button>
+                <mat-menu #menu1="matMenu" class="btn-account">
+                  <button mat-menu-item>
+                    <a mat-list-item routerLinkActive="list-item-active" routerLink="/profil">
+                      <mat-icon>edit</mat-icon>Modifier mon profil
+                    </a>
+                  </button>
+                  <button mat-menu-item>
+                    <mat-icon>exit_to_app</mat-icon>
+                    Déconnexion
+                  </button>
+                </mat-menu>
+              </li>
+            </ul>
+          </div>
+        </mat-toolbar-row>
+      </span>
+    </mat-toolbar>
+  
+    <div class="content-container">
+      <mat-sidenav-container class="example-container">
+        <!-- Sidebar -->
+        <mat-sidenav mode="side" opened>
+          <mat-nav-list class="list">
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/acceuil">
+              <mat-icon>home</mat-icon>Acceuil
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/studentList">
+              <mat-icon>account_circle</mat-icon>Liste des etudiants
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/dashboard">
+              <mat-icon>pie_chart</mat-icon>Absence
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/moy">
+              <mat-icon>calculate</mat-icon>Moyenne
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+              <mat-icon>trending_up</mat-icon>Taux de réussite
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/">
+              <mat-icon>grid_on</mat-icon>Emploi du temps
+            </a>
+            <a mat-list-item routerLinkActive="list-item-active" routerLink="/propos">
+              <mat-icon>supervised_user_circle</mat-icon>à propos de nous
+            </a>
+          </mat-nav-list>
+        </mat-sidenav>
+  
+        <!-- Main content -->
+        <mat-sidenav-content>
+          <mat-card>
+            <mat-card-content>
+              <div class="title">Taux de reussite</div> 
+              <div class="chart">
+                <canvas id="myChart"></canvas>
+              </div>
+              
+            </mat-card-content>
+          </mat-card>
+  
+        </mat-sidenav-content>
+      </mat-sidenav-container>
+    </div>
+  </div>
