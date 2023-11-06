@@ -1,0 +1,99 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.item{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+.elem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 20px;
+}
+li a{
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+button{
+    background:#4584ef ;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.box{
+    border: 0.1px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    height: 30px;
+    width: 500px;
+    box-shadow: 1px 1px 5px #888;
+    border-radius: 40px;
+}
+.input-box{
+    margin-left: 15px;
+    width: 420px;
+    height: 25px;
+    outline: none;
+    background: transparent;
+    border: none;
+}
+.loup{
+    float: left;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.voix{
+    float: right;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.google_logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding-bottom: 250px;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    margin: 150px 10px 0 0;
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    color: #6e6e6e;
+    border-radius: 5px;
+}
+.btn:hover{
+    border: 1px solid #a4a4a4;
+    border-radius: 5px;
+}
